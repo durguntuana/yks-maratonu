@@ -8,7 +8,7 @@
 
 ## 🌐 Canlı Demo
 
-👉 **[Siteyi Ziyaret Et](https://yksmaratonu.netlify.app)**
+👉 **[Siteyi Ziyaret Et](https://durguntuana.github.io/yks-maratonu/)**
 
 ## 📸 Ekran Görüntüleri
 
