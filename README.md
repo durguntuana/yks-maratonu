@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/durum-aktif-22c55e?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-web-0a1710?style=flat-square)
 ![No Backend Required](https://img.shields.io/badge/backend-Firebase%20(opsiyonel)-fb7185?style=flat-square)
-![License](https://img.shields.io/badge/lisans-kişisel%20proje-facc15?style=flat-square)
+![License](https://img.shields.io/badge/lisans-MIT-facc15?style=flat-square)
 
 **[🌐 Canlı Siteyi Aç](https://yksmaratonu.netlify.app)**
 
@@ -19,6 +19,7 @@
 ## 📖 İçindekiler
 
 - [Nedir bu?](#-nedir-bu)
+- [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Özellikler](#-özellikler)
   - [📖 Paragraf Maratonu & 🧮 Problem Maratonu](#-paragraf-maratonu--problem-maratonu)
   - [📊 Çalışma Karnesi](#-çalışma-karnesi)
@@ -32,6 +33,8 @@
 - [Bulut Senkronizasyonu Kurulumu](#️-bulut-senkronizasyonu-kurulumu)
 - [Veri Gizliliği](#-veri-gizliliği)
 - [Yol Haritası](#-yol-haritası)
+- [Katkıda Bulunma](#-katkıda-bulunma)
+- [Lisans](#-lisans)
 - [Kredi](#-kredi)
 
 ---
@@ -43,6 +46,29 @@
 Üç modül tek bir çatı altında birleşir ve **birbirini besler**: bir gün çözdüğün paragraf ve problem sorularının süresi, otomatik olarak o günün toplam çalışma karnesine yansır.
 
 > Kurulum gerektirmez, hesap açmaya gerek yoktur. Tarayıcında aç, kullanmaya başla.
+
+---
+
+## 📸 Ekran Görüntüleri
+
+> Aşağıdaki görseller `/screenshots` klasöründen okunur. Kendi ekran görüntülerini aynı isimlerle bu klasöre eklemen yeterli — otomatik olarak burada görünecekler.
+
+<div align="center">
+
+| Ana Sayfa | Paragraf / Problem Maratonu |
+|---|---|
+| ![Ana Sayfa](screenshots/ana-sayfa.png) | ![Maraton](screenshots/maraton.png) |
+
+| Çalışma Karnesi | Tema Seçimi |
+|---|---|
+| ![Çalışma Karnesi](screenshots/karnesi.png) | ![Temalar](screenshots/temalar.png) |
+
+</div>
+
+**Görsel eklemek için:**
+1. Proje klasöründe bir `screenshots/` klasörü oluştur.
+2. Siteden aldığın ekran görüntülerini şu isimlerle içine koy: `ana-sayfa.png`, `maraton.png`, `karnesi.png`, `temalar.png`.
+3. Bu dosya (README.md) otomatik olarak bu görselleri gösterecektir — başka bir şey yapmana gerek yok.
 
 ---
 
@@ -200,6 +226,30 @@ Verilerinin cihazlar arasında otomatik senkron olmasını istiyorsan (opsiyonel
 - [ ] Haftalık / aylık istatistik grafikleri
 - [ ] TYT & AYT branş bazlı ayrı takip
 - [ ] Karanlık/aydınlık mod dışında ek tema seçenekleri
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Bu proje kişisel bir ihtiyaçtan doğdu, ama iyileştirme önerilerine açık:
+
+1. Depoyu **fork'la**.
+2. Yeni bir dal oluştur: `git checkout -b ozellik/yeni-ozellik`
+3. Değişikliklerini yap ve anlamlı bir commit mesajıyla kaydet: `git commit -m "Yeni özellik: ..."`
+4. Dalını gönder: `git push origin ozellik/yeni-ozellik`
+5. Bir **Pull Request** aç ve neyi neden değiştirdiğini kısaca anlat.
+
+**Hata bildirimi / öneri** için bir *Issue* açman yeterli — ekran görüntüsü veya tarayıcı konsolundaki hata mesajını eklemen çözümü hızlandırır.
+
+Proje tek bir `.html` dosyası olduğu için katkı süreci oldukça basittir: build adımı, bağımlılık kurulumu ya da derleme yoktur — dosyayı düzenle, tarayıcıda aç, test et.
+
+---
+
+## 📜 Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile paylaşılmıştır — kodu özgürce kopyalayabilir, değiştirebilir ve kendi ihtiyaçların için kullanabilirsin. Ticari ya da kişisel her türlü kullanımda tek beklenti, orijinal lisans metnini korumandır.
+
+> Not: "Tuana Durgun" imzası ve "YKS Maratonu" ismi bu projenin kişisel bir anısıdır; kodu kullanırken imzayı kendi adınla değiştirmen tamamen normaldir 🙂
 
 ---
 
