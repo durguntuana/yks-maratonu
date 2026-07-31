@@ -225,8 +225,6 @@ Verilerinin cihazlar arasında otomatik senkron olmasını istiyorsan (opsiyonel
 - [ ] Firestore güvenlik kurallarını sıkılaştırma (gerçek kimlik doğrulama)
 - [ ] Haftalık / aylık istatistik grafikleri
 - [ ] TYT & AYT branş bazlı ayrı takip
-- [ ] Karanlık/aydınlık mod dışında ek tema seçenekleri
-
 ---
 
 ## 🤝 Katkıda Bulunma
